@@ -1,0 +1,15 @@
+<!doctype html>
+<body><script>
+	var text = 'hello world!'
+
+	var url = 'edit/?text='+encodeURI(text);
+	// var url = 'edit/';
+
+	var request = new XMLHttpRequest();
+	request.addEventListener('load', function(){
+  		console.log(this.responseText);
+	})
+	request.open("get", url, true);
+	request.send();
+
+</script></body>
