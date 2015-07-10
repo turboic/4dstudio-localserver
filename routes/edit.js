@@ -26,7 +26,7 @@ router.get('/', function(request, response, next) {
                                 console.log('exec error: ' + error);
                         }
                 });
-        // })
+        })
 });
 
 module.exports = router;
