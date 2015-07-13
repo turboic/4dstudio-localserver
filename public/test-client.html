@@ -1,15 +1,22 @@
 <!doctype html>
-<body><script>
-	var text = 'hello world!'
-
-	var url = 'edit/?text='+encodeURI(text);
-	// var url = 'edit/';
-
-	var request = new XMLHttpRequest();
-	request.addEventListener('load', function(){
-  		console.log(this.responseText);
-	})
-	request.open("get", url, true);
-	request.send();
-
+<body>
+<button>edit</button>
+<hr>
+<textarea name="textarea" rows="10" cols="50">Write something here</textarea>
+<script src='nativefileedit-client.js'></script>
+<script>
+	function onClick(){
+		var basename = 'temporary_name.js'
+		// get content from textarea
+		var content = document.querySelector('textarea').value
+		
+		// Launch the NativeFileEdit
+		var nativeFileEdit = new NativeFileEdit(content, basename, function(error, newContent){
+			// if there is an error, do nothing
+			if( error !== null )	return
+			// set back new content
+			document.querySelector('textarea').value = newContent
+		})				
+	}
+	document.querySelector('button').addEventListener('click', onClick)
 </script></body>
