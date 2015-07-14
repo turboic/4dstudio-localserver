@@ -1,18 +1,31 @@
-# How to implement it
-- server in node.js
-  - with express or not ?
-  - without express is cleaner
-  - with express may be easier
-  - start with express, and remove it when all works
-- the client need to know if the edition is completed
-  - the client need to get the data back
-- it needs to support 'any' editor
-  - support unix/macosx one for now
-  - support for $EDITOR ?
-  - support of the editor cmdline customisation in server options
+# 4dstudio-localserver
 
-# How to publish it ?
-- on daqri opensource github
-- security is a matter, so transparency is key as we install on the local computer.
-- npm to install it to be casual for normal user
-- TODO ask yow-hann
+This implement the local server for 4dstudio by daqri.
+It provide additional features to 4dstudio such as 
+native editor.
+
+Native editor allow you to edit scripts with a native 
+editor (e.g. sublime text). 
+It is likely more confortable than editing within the browser.
+
+It is to be run on the user computer.
+Please note that it is optional, you dont need this to use 4d Studio.
+
+
+## Getting Started
+
+To start the server on your computer
+
+```
+npm start
+```
+
+## How to install it ?
+
+TO BE DETERMINED
+
+It is published on npm as usual.
+
+```
+npm install 4dstudio-localserver
+```
