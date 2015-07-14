@@ -1,9 +1,13 @@
 var NativeFileEdit = function(localServerUrl, content, basename, callback){
+	// build the url to call
 	var url = localServerUrl+'edit/'
 	url += '?basename='+encodeURI(basename);
 	url += '&content='+encodeURI(content);
 
+	// build the request
 	var request = new XMLHttpRequest();
+	
+	// bind 'load' to collect result
 	request.addEventListener('load', function(){
 		var responseJSON = JSON.parse(this.responseText);
 		if( responseJSON.status === 'ok' ){
@@ -12,11 +16,13 @@ var NativeFileEdit = function(localServerUrl, content, basename, callback){
 			callback(responseJSON.status, responseJSON.newContent)
 		}
 	})
+	
+	// bind error to get connection refused error
 	request.addEventListener('error', function(){
 		callback('error', null)
 	})
-	// FIXME sync XMLHttpRequest
-	request.open("get", url);
-	
+
+	// do the actual request
+	request.open("get", url);	
   request.send();
 }
