@@ -2,7 +2,6 @@ var NativeFileEdit = function(localServerUrl, content, basename, callback){
 	var url = localServerUrl+'edit/'
 	url += '?basename='+encodeURI(basename);
 	url += '&content='+encodeURI(content);
-	// var url = 'edit/';
 
 	var request = new XMLHttpRequest();
 	request.addEventListener('load', function(){
@@ -13,8 +12,11 @@ var NativeFileEdit = function(localServerUrl, content, basename, callback){
 			callback(responseJSON.status, responseJSON.newContent)
 		}
 	})
+	request.addEventListener('error', function(){
+		callback('error', null)
+	})
 	// FIXME sync XMLHttpRequest
 	request.open("get", url);
 	
-	request.send();		
+  request.send();
 }
