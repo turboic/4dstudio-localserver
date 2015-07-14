@@ -20,9 +20,17 @@ To start the server on your computer
 npm start
 ```
 
-## How to install it ?
+## How to install from git
 
-TO BE DETERMINED
+You simply clone the repository 
+
+```
+git clone git@bitbucket.org:daqri1/4dstudio-localserver.git
+```
+
+## How to install from npm
+
+NOT YET DONE. SHOULD WE DO IT ?
 
 It is published on npm as usual.
 
