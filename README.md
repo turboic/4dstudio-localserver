@@ -17,18 +17,16 @@ of the feature in actions.
 
 ## Getting Started
 
-To start the server on your computer
+It is published on npm as usual. So you first install it
 
 ```
-npm start
+$ npm install -g 4dstudio-localserver
 ```
 
-## How to install from npm
-
-It is published on npm as usual.
+And then launch it via 
 
 ```
-npm install 4dstudio-localserver
+$ 4dstudio-localserver
 ```
 
 ---
@@ -41,6 +39,13 @@ You simply clone the repository
 ```
 git clone https://github.com/DAQRI/4dstudio-localserver.git
 ```
+
+Go in the directory, and start the server on your computer with 
+
+```
+npm start
+```
+
 
 ## Internal Workflow
 Here are the step followed when 4dstudio is using native editor in 4dstudio-localserver
