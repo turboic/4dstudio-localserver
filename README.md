@@ -1,19 +1,17 @@
 # 4dstudio-localserver
 
-This implement the local server for 4dstudio by daqri.
-It provide additional features to 4dstudio such as 
-native editor.
+This implements the local server for [4dstudio](http://daqri.com/daqri-4d-studio/) by [DAQRI](http://daqri.com).
+It provide additional features to 4dstudio such as native editor.
 
 Native editor allow you to edit scripts with a native 
-editor (e.g. sublime text). 
+editor (e.g. [sublime text](http://www.sublimetext.com/)). 
 It is likely more confortable than editing within the browser.
+It is intended to power user and has to be run on the user computer.
+Please note that it is optional and not at all required to use 4dStudio.
 
-It is to be run on the user computer.
-Please note that it is optional, you dont need this to use 4d Studio.
+here is native editor feature in actions.
 
-here is a 
-[gif](https://s3.amazonaws.com/uploads.hipchat.com/60976%2F2110747%2FtVpc0yuURy26zLE%2Fnativeeditor.gif)
-of the feature in actions.
+![nativeeditor](https://cloud.githubusercontent.com/assets/252962/8828043/f8dbd26e-3087-11e5-8b97-8f31a63495eb.gif)
 
 ## Getting Started
 
