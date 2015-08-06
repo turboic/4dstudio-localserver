@@ -1,9 +1,9 @@
 ## TODO
-- redo the gif with current UI
+- redo the gif with current UI and in a industrial context (for the model and the script)
 - DONE spell checking
 - DONE fix links and TODO
 - add a conclusion
-- is it ok to officially got mit license ?
+- is it ok to officially got mit license ? YES
 
 # 4dstudio-localserver
 #### Or How To Edit Augmented Reality Scripts With Your Favorite Native Editor
