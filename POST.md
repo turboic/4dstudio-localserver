@@ -1,19 +1,26 @@
+## TODO
+- redo the gif with current
+- spell checking
+- add a conclusion
+
 # 4dstudio-localserver
 #### Or How to edit augmented reality scripts with your favorite native editor
 
-We recently release [4dstudio](http://daqri.com/daqri-4d-studio/)
+We recently released [4dstudio](http://daqri.com/daqri-4d-studio/)
   a tool to author augmented reality content.
-  You design your 4d experience with it and 
-  Once it is ready you publish it. It become immediatly playable 
-  on smart helmet or your phone/tablet.
+  You design your 4d experience within your browser and 
+  , once it is ready, you publish it. 
+  It becomes immediatly playable on smart helmet or your phone/tablet.
 One important part of those experiences is based on the user interacting 
   with what she/he is seeing in augmented reality.
 Those interactions may be freely designed thru 4dstudio thanks to 
     *scripting*.
     
-Today we release [4dstudio-localserver]() as opensource, a feature for power users to use their favorite native editors to edit augmented reality scripts.
+Today we release [4dstudio-localserver](https://github.com/DAQRI/4dstudio-localserver) as opensource, 
+a feature for power users to use their favorite native editors to edit augmented reality scripts.
 
-In 4dstudio, users can write scripts which will run when 4d content is played.
+In 4dstudio, users can write scripts which will run whenever 
+and wherever 4d content is played.
   It allows the users to make their 4d contents
   more interactive, more dynamic. It provides a lot of 
   flexibilty and creative freedom when you create 4d experience.
@@ -83,6 +90,15 @@ Technically 4dstudio-localserver is a web server written in node.js.
 So this is an unusual situation, where you need to run a server on your local computer even when you are running a webapp. But this trick allows use 
 to launch a native editor from the webapp.
 
+
+### Open sourced
+We decided to opensource [4dstudio-localserver]() to give back to the community. You may reuse it in your own webapp.
+It has lot of side benefits, it makes it easier to install, people outside can improve it and contribute back.
+
+Additionally we need to handle the unusual aspect situation: we are asking power users of a webapp to install a software on their local computer. 
+There is a legitimate security concern for our users and we are taking it very seriously. 
+So we wanted to be as transparent as possible. The code is available, so everybody which is interested can look and check what we are doing.
+
 ### Workflow
 4dstudio-localserver provides an REST API using [express](http://expressjs.com/).
 We wrote it with flexibility in mind, you can even reuse it on your own project.
@@ -99,20 +115,3 @@ Here are the steps followed when 4dstudio is using native editor in 4dstudio-loc
    - Based on the file extensions, the editor will provide contextual help, code colorisation, autocompletion etc...
 4. When the text is saved, the local server get the content of the provided files, and reply that to 4dstudio
 5. On reception of the new content, 4dstudio update the proper codemirror instance with the new content
-
-### Open sourced
-
-
-
-
-
-### Plan
-- take the README.md
-
-- Explain the feature
-  - 
-- Explain the workflow
-- Unusual workflow for website
-- Explain security matters 
-- Say why it is open sourced 
-- Then explain the basics of installation and utilisation 
