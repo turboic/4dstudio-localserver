@@ -30,8 +30,9 @@ $ 4dstudio-localserver
 To tune your own editor, you need to have a blocking command line to launch it.
 Pass it to the server via ```EDITOR_4DSTUDIO``` environment variables.
 
-For [atom](http://atom.io), use ```export $EDITOR_4DSTUDIO='atom --wait'```.
-For [sublime text](http://www.sublimetext.com/), use ```export $EDITOR_4DSTUDIO='subl --wait --new-window'```
+* For [atom](http://atom.io), use ```export $EDITOR_4DSTUDIO='atom --wait'```.
+* For [sublime text](http://www.sublimetext.com/), use ```export $EDITOR_4DSTUDIO='subl --wait --new-window'```
+
 You are free to define it for the editor you like.
 
 ---
