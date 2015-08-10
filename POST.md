@@ -32,7 +32,7 @@ they know, so using your native editor will likely increase your productivity.
 Third, it is well known that many people who write code are quite passionate
 about the text editor they use. 
 The war between emacs and vi users is notorious among coders.
-There is even a term coined for that:["Editor War"](https://en.wikipedia.org/wiki/Editor_war).
+There is even a term coined for that: ["Editor War"](https://en.wikipedia.org/wiki/Editor_war).
  
 
 So it is not a one-fit-all solution. We will never be able to make one editor which fits everybody's needs.
@@ -78,6 +78,13 @@ $ 4dstudio-localserver
 ```
 
 After that, you should be able to launch your native editor from within 4dstudio and enjoy it while writing augmented reality scripts!
+
+To tune your own editor, you need to have a blocking command line to launch it.
+Pass it to the server via ```EDITOR_4DSTUDIO``` environment variables.
+
+For [atom](http://atom.io), use ```export $EDITOR_4DSTUDIO='atom --wait'```.
+For [sublime text](http://www.sublimetext.com/), use ```export $EDITOR_4DSTUDIO='subl --wait --new-window'```
+You are free to define it for the editor you like.
 
 ### How Is It Implemented ?
 Now let's talk about the implementation details. 

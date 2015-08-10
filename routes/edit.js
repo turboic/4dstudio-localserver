@@ -32,7 +32,7 @@ router.get('/', function(request, response, next){
                 // - to support atom
                 // var cmdline     = 'atom --wait'
                 // - to support sublime text
-                var cmdline	= 'subl --wait --new-window';
+                var cmdline	= process.env.EDITOR_4DSTUDIO || 'subl --wait --new-window';
                 cmdline += " \'"+fullName+"\'"
 
                 require('child_process').exec(cmdline, function(error, stdout, stderr){
