@@ -2,8 +2,8 @@
 - redo the gif with current UI and in a industrial context (for the model and the script)
 - DONE spell checking
 - DONE fix links and TODO
-- add a conclusion
-- is it ok to officially got mit license ? YES
+- DONE add a conclusion
+- DONE is it ok to officially got mit license ? YES
 
 # 4dstudio-localserver
 #### Or How To Edit Augmented Reality Scripts With Your Favorite Native Editor
@@ -119,3 +119,7 @@ Here are the steps followed when 4dstudio is using native editor in 4dstudio-loc
    - Based on the file extensions, the editor will provide contextual help, code colorization, autocompletion etc...
 4. When the text is saved, the local server gets the content of the provided files, and replies that to 4dstudio.
 5. On reception of the new content, 4dstudio updates the proper codemirror instance with the new content.
+
+### Conclusion
+To edit script within [4dstudio](http://daqri.com/daqri-4d-studio/) , you may edit them using our online editor or you can use [4dstudio-localserver](https://github.com/DAQRI/4dstudio-localserver) to edit your script with your favorite editor.
+It is entirely up to you.
