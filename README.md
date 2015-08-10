@@ -11,7 +11,7 @@ Please note that it is optional and not at all required to use 4dStudio.
 
 here is native editor feature in actions.
 
-![nativeeditor](https://cloud.githubusercontent.com/assets/252962/8828043/f8dbd26e-3087-11e5-8b97-8f31a63495eb.gif)
+![nativeeditor2](https://cloud.githubusercontent.com/assets/252962/9174704/780123d2-3f79-11e5-8958-4ae67dfbe211.gif)
 
 ## Getting Started
 

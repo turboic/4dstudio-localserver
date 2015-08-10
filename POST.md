@@ -1,5 +1,5 @@
 ## TODO
-- redo the gif with current UI and in a industrial context (for the model and the script)
+- DONE redo the gif with current UI and in a industrial context (for the model and the script)
 - DONE spell checking
 - DONE fix links and TODO
 - DONE add a conclusion
@@ -67,7 +67,7 @@ It is mostly aimed at power users who go the extra mile to use
 their favorite text editor. 
 You can see it in action below
 
-![nativeeditor](https://cloud.githubusercontent.com/assets/252962/8828043/f8dbd26e-3087-11e5-8b97-8f31a63495eb.gif)
+![nativeeditor2](https://cloud.githubusercontent.com/assets/252962/9174704/780123d2-3f79-11e5-8958-4ae67dfbe211.gif)
 
 
 ### How To Install It ?
