@@ -8,6 +8,7 @@ editor (e.g. [sublime text](http://www.sublimetext.com/)).
 It is likely more confortable than editing within the browser.
 It is intended to power user and has to be run on the user computer.
 Please note that it is optional and not at all required to use 4dStudio.
+We published a post ["How To Edit Augmented Reality Scripts With Your Favorite Native Editor"](http://daqri.github.io/2015/08/11/4dstudio-localserver.html) on daqri engineering blog.
 
 here is native editor feature in actions.
 
